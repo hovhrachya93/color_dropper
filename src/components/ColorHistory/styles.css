@@ -1,0 +1,39 @@
+.history-section {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+.color-history {
+  height: 372px;
+  width: 150px;
+  overflow-y: auto;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.color-history::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.color-history::-webkit-scrollbar-thumb {
+  background-color: #ff34f9;
+  border-radius: 10px; 
+  border: 3px solid #fff; 
+}
+
+.color-history::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px; 
+}
+
+.color-history {
+  scrollbar-width: thin; 
+  scrollbar-color: #ff34f9 #f1f1f1;
+}
+
+.color-swatch {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 5px; 
+}

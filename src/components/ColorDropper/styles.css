@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.image-section {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.shortcut-info {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picker-text {
+  font-family: 'Roboto';
+  font-size: 70px;
+  line-height: 120px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.picker-text-gradinted {
+  background-image: linear-gradient(to right, #4907bb, #ff34f9);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-right: 30px;
+}
